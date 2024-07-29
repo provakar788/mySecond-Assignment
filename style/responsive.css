@@ -120,4 +120,43 @@
         margin-top: 1%;
     }
     /* miles responsive end */
+
+    /* foods container start */
+    .foods-container{
+        width: 100%;
+        height: 2260px; 
+        margin-bottom: 5%;
+    }
+    .food-descrip{
+        width: 382px;
+    }
+    .foods-box{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .food-card{
+        width: 330px;
+        height: 385px;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .food-image{
+        width: 100%;
+    }
+    .food-content{
+        width: 100%;
+    }
+    .food-title{
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+    .food-para{
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .food-reverse{
+        flex-direction: column-reverse;
+    }
+    /* foods container end */
 }
