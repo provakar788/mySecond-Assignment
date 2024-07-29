@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0,0,0);
+    font-family: Inter;
+}
+/* sharing codes all container */
+.flex{
+    display: flex;
+}
+.title{
+    color: rgba(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-align: center;
+}
+.description{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Beiruti;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1.5%;
+}
+/* sharing codes all container */
+
+/* header container start */
+.header-body{
+    background: linear-gradient(180.00deg, 
+    rgb(9, 9, 9), rgb(36, 36, 36), rgb(2, 2, 2) 100%);
+}
+.header-container{
+    width: 100%;
+    height: 510px;
+    background-image: url(../assets/Images\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 840px 119px;
+    background-size: calc(21.4%);
+    padding: 2.7rem 0rem;
+    margin-bottom: 3%;
+}
+.bars{
+    color: rgb(255,255,255);
+    display: none;
+}
+.navbar{
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.brand{
+    color: rgb(230,83,60);
+    font-size: 2.3rem;
+    margin-left: 1%;
+}
+.nav-item{
+    border: 1px solid rgb(25,25,25);
+    padding: 0.7rem 0.2rem;
+    border-radius: 25px;
+    padding-right: 1rem;
+    margin-right: 2%;
+    gap: 50px;
+}
+.nav-items{
+    list-style: none;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.bg{
+    background-color: rgb(230,83,60);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+}
+.header{
+    width: 88%;
+    margin: 0 auto;
+}
+.header-content{
+    width: 40%;
+    margin-top: 6.7%;
+}
+.header-title{
+    color: rgb(255,255,255);
+    font-size: 3.7rem;
+    font-weight: 900;
+}
+.header-title span{
+    font-family: Dancing Script;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.header-para{
+    color: rgb(255,255,255,0.5);
+    margin-top: 3%;
+    font-family: Manrope;
+}
+.header-btn{
+    margin-top: 4.6%;
+}
+.header-btn .join{
+    background-color: rgb(230,83,60);
+    color: rgba(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border: 1px solid rgb(230,83,60);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.app-btn{
+    background-color: rgb(25,25,25,0.4);
+    color: rgba(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem 1.5rem;
+    margin-left: 0.5rem;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.box{
+    background: rgba(48,48,48,0.56);
+    height: 55px;
+    color: rgb(255,255,255);
+    padding: 0.7rem 1rem;
+    border-radius: 12px;
+    margin-left: 170px;
+}
+.box-1{
+    width: 118px;
+    margin-top: 380px;
+    align-items: center;
+    gap: 13px;
+    cursor: pointer;
+}
+.box-1 i{
+    color: rgb(230,83,60);
+    font-size: 2rem;
+    margin-top: 12px;
+}
+.box1-title{
+    font-size: 1.5rem;
+}
+.box-2{
+    margin-top: 160px;
+    cursor: pointer;
+}
+.box-para{
+    color: rgb(255,255,255,0.65);
+    font-size: 0.8rem;
+}
+/* header container end */
