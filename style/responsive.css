@@ -121,7 +121,7 @@
     }
     /* miles responsive end */
 
-    /* foods container start */
+    /* foods responsive start */
     .foods-container{
         width: 100%;
         height: 2260px; 
@@ -158,5 +158,30 @@
     .food-reverse{
         flex-direction: column-reverse;
     }
-    /* foods container end */
+    /* foods responsive end */
+
+    /* excercise responsive start */
+    .excercise-container{
+        height: 1410px;
+        margin-bottom: 12%;
+    }
+    .excercise-cardbox{
+        width: 85%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+    .excercise-card{
+        width: 100%;
+    }
+    .exercise2{
+        margin-left: 0;
+    }
+    .exercise3{
+        margin-left: 0;
+    }
+    .exercise6{
+        margin-left: 0;
+    }
+    /* excercise responsive end */
 }
