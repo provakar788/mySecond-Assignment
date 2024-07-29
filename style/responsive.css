@@ -61,4 +61,33 @@
         font-size: 0.6rem;
     }
     /* header responsive end */
+
+    /* habit responsive start */
+    .habit-container{
+        width: 100%;
+        height: 1325px;
+        margin-bottom: 12%;
+    }
+    .habit-para{
+        width: 82%;
+    }
+    .habit-card{
+        flex-direction: column;
+        gap: 7px;
+    }
+    .circle-box{
+        width: 95%;
+        height: 318px;
+    }
+    .circle-box img{
+        width: 70%;
+        border-radius: 50%;
+    }
+    .routine-para{
+        width: 65%;
+        font-size: 0.9rem;
+        margin: 0 auto;
+        margin-top: 1%;
+    }
+    /* habit responsive end */
 }
