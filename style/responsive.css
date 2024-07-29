@@ -130,7 +130,8 @@
         margin-bottom: 5%;
     }
     .food-descrip{
-        width: 382px;
+       width: 90%;
+       text-align:start ;
     }
     .foods-box{
         grid-template-columns: repeat(1, 1fr);
@@ -166,6 +167,9 @@
     .excercise-container{
         height: 1410px;
         margin-bottom: 12%;
+    }
+    .excercise-title{
+        font-size: 1.7rem;
     }
     .excercise-cardbox{
         width: 85%;
@@ -294,7 +298,7 @@
     .footer-para{
         font-size: 1.2rem;
         font-weight: 400;
-        width: 360px;
+        width: 100%;
     }
     .footer-box{
         text-align: start;
