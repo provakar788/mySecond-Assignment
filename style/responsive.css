@@ -272,4 +272,53 @@
         margin-top: -11%;
     }
     /* team responsive end */
+
+    /* footer responsive start */
+    .footer-container{
+        width: 100%;
+        height: 510px;
+        flex-direction: column;
+    }
+    .footer-content{
+        width: 78%;
+        height: 460px;
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 4%;
+    }
+    .footer-brand{
+        font-size: 2.7rem;
+    }
+    .footer-para{
+        font-size: 1.2rem;
+        font-weight: 400;
+        width: 360px;
+    }
+    .footer-box{
+        text-align: start;
+        align-items: start;
+    }
+    .footer-box1{
+        width: 100%;
+        text-align: left;
+    }
+    .footer-box2{
+        width: 100%;
+        height: 240px;
+        margin-top: 5%;
+        text-align: start;
+    }
+    .footer-box3{
+        width: 100%;
+        height: 240px;
+        margin-top: 5%;
+    }
+    .mini-title{
+        font-weight: 400;
+    }
+    hr{
+        width: 78%;
+        margin-top: 4%;
+    }
+    /* footer responsive end */
 }
