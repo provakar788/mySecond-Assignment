@@ -208,3 +208,58 @@ body{
     margin-top: 2%;
 }
 /* habit container end */
+
+/* miles container start */
+.miles-container{
+    width: 100%;
+    margin: auto 0;
+    margin-bottom: 5%;
+}
+.miles-area{
+    background-color: rgb(34,34,34);
+    width: 79%;
+    height: 263px;
+    margin: 2rem auto;
+    padding: 2rem 2rem;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+.miles-content{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+.miles-title{
+    width: 100%;
+    text-align: start;
+}
+.miles-para{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 4%;
+}
+.miles-btn{
+    background-color: rgb(230,83,60);
+    color: rgba(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.8rem 1.7rem;
+    border: none;
+    border-radius: 30px;
+    margin-top: 4.8%;
+    margin-right: 77%;
+    cursor: pointer;
+}
+.miles-image{
+    width: 37%;
+}
+.miles-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+/* miles container end */
