@@ -221,7 +221,7 @@
         margin: 0.9rem auto;
     }
     .bmi-inputform{
-        width: 100%;
+        width: 99%;
         height: 298px;
         margin-top: 1%;
     }
@@ -235,7 +235,7 @@
         margin-top: 1%;
     }
     form{
-        width: 73%;
+        width: 80%;
         margin: 0 auto;
         margin-top: 4%;
     }
@@ -243,7 +243,7 @@
         width: 100%;
     }
     form input{
-        width: 36.8%;
+        width: 37.5%;
     }
     .age-gender{
         width: 100%;
