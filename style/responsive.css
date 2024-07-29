@@ -22,7 +22,7 @@
         height: 840px;
         background-position: 122px 500px;
         background-size:calc(58%);
-        margin-bottom: 12%;
+        margin-bottom: 4%;
     }
     .brand{
         margin-left: 1%;
@@ -58,8 +58,8 @@
     }
     .box-2{
         padding: 0.7rem 0.9rem;
-        margin-left: 26.2%;
-        margin-top: 140px;
+        margin-left: 25.5%;
+        margin-top: 134px;
     }
     .box-para{
         font-size: 0.6rem;
@@ -132,6 +132,7 @@
     .food-descrip{
        width: 90%;
        text-align:start ;
+       margin: 0 auto;
     }
     .foods-box{
         grid-template-columns: repeat(1, 1fr);
@@ -169,7 +170,7 @@
         margin-bottom: 12%;
     }
     .excercise-title{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
     .excercise-cardbox{
         width: 85%;
@@ -185,6 +186,9 @@
     }
     .exercise3{
         margin-left: 0;
+    }
+    .exercise4{
+        height: 193px;
     }
     .exercise6{
         margin-left: 0;
@@ -239,7 +243,7 @@
         width: 100%;
     }
     form input{
-        width: 38.4%;
+        width: 37.2%;
     }
     .age-gender{
         width: 100%;
@@ -272,10 +276,11 @@
     }
     .team-card{
         width: 100%;
+        height: 240px;
         margin: 0 auto;
     }
     .team-details{
-        margin-top: -11%;
+        margin-top: -13%;
     }
     /* team responsive end */
 
