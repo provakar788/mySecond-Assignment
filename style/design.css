@@ -283,7 +283,7 @@ body{
     gap: 20px;
 }
 .food-card{
-    background-color: rgb(34,34,34,0.4);
+    background-color: rgb(34,34,34,0.5);
     height: 194px;
     padding: 0.6rem 1rem;
     border-radius: 20px;
