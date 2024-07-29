@@ -263,3 +263,56 @@ body{
     border-radius: 18px;
 }
 /* miles container end */
+
+/* foods container start */
+.foods-container{
+    width: 100%;
+    height: 1275px;
+    padding: 1rem 0;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.food-descrip{
+    width: 648px;
+    margin: 0.4rem auto;
+}
+.foods-box{
+    width: 80%;
+    margin: 1.5rem auto;
+    flex-direction: column;
+    gap: 20px;
+}
+.food-card{
+    background-color: rgb(34,34,34,0.4);
+    height: 194px;
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    gap: 160px;
+}
+.food-image{
+    width: 32%;
+}
+.food-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.food-content{
+    color: rgb(255,255,255);
+    width: 55%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+.food-title{
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.food-para{
+    color: rgb(255,255,255,0.5);
+    font-family: Ubuntu;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* foods container end */
