@@ -533,3 +533,59 @@ form select{
     color: rgb(255,255,255,0.7);
 }
 /* team container end */
+
+/* footer container start */
+.footer-container{
+    width: 100%;
+    background-color: rgb(34,34,34);
+    padding: 2rem 0;
+    flex-direction: column;
+}
+.footer-content{
+    width: 88%;
+    height: 190px;
+    margin-left: 10%;
+}
+.footer-box{
+    width: 31.1%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.footer-box1{
+    align-items: flex-start;
+    text-align: start;
+}
+.footer-brand{
+    color: rgb(230,83,60);
+    font-size: 3.2rem;
+}
+.footer-para{
+    width: 380px;
+    font-weight: 400;
+    text-align: start;
+}
+.footer-title{
+    color: rgb(255,255,255);
+    font-size: 1.5rem;
+}
+.mini-title{
+    color: rgb(255,255,255,0.5);
+    font-size: 1rem;
+    font-weight: 500;
+}
+hr{
+    background-color: rgb(255,255,255,0.65);
+    width: 78%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+.footer-reserved{
+    color: rgb(255,255,255,0.5);
+    font-size: 1rem;
+    margin-top: 2.6%;
+    text-align: center;
+}
+/* footer container end */
