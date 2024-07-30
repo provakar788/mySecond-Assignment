@@ -58,7 +58,7 @@
     }
     .box-2{
         padding: 0.7rem 0.9rem;
-        margin-left: 25.5%;
+        margin-left: 25.3%;
         margin-top: 134px;
     }
     .box-para{
@@ -208,7 +208,8 @@
     .bmi-box{
         height: 638px;
         padding: 0.7rem 0;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
     .bmi-calculator{
         width: 90%;
@@ -221,7 +222,7 @@
         margin: 0.9rem auto;
     }
     .bmi-inputform{
-        width: 99%;
+        width: 99.5%;
         height: 298px;
         margin-top: 1%;
     }
@@ -238,21 +239,24 @@
         width: 80%;
         margin: 0 auto;
         margin-top: 4%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
     }
     .heiwei{
         width: 100%;
     }
     form input{
-        width: 37.5%;
+        width: 113px;
     }
     .age-gender{
         width: 100%;
     }
     form select{
-        width: 48.2%;
+        width: 145px;
     }
     .sel2{
-        width: 98%;
+        width: 295px;
     }
     .bmi-btn{
         width: 32%;

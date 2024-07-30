@@ -115,7 +115,7 @@ body{
     color: rgba(255, 255, 255);
     font-size: 1rem;
     font-weight: 500;
-    padding: 0.8rem 1.8rem;
+    padding: 0.8rem 1.7rem;
     border: none;
     border: 1px solid rgb(230,83,60);
     border-radius: 30px;
@@ -126,7 +126,7 @@ body{
     color: rgba(255, 255, 255);
     font-size: 1rem;
     font-weight: 500;
-    padding: 0.8rem 1.8rem;
+    padding: 0.8rem 1.7rem;
     margin-left: 0.5rem;
     border: 1px solid rgb(255,255,255);
     border-radius: 30px;
@@ -384,7 +384,7 @@ body{
     background-image: url(../assets/excercise/exercise4.png);
     background-color: rgba(12, 12, 12, 0.5);
     background-position: cover;
-    background-size: calc(108%);
+    background-size: calc(109%);
     background-repeat: no-repeat;
     background-blend-mode: overlay;
 }
