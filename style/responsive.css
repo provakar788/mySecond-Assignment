@@ -58,7 +58,7 @@
     }
     .box-2{
         padding: 0.7rem 0.9rem;
-        margin-left: 25.3%;
+        margin-left: 25%;
         margin-top: 134px;
     }
     .box-para{
@@ -130,8 +130,8 @@
         margin-bottom: 5%;
     }
     .food-descrip{
-       width: 90%;
-       text-align:start ;
+       width: 77%;
+       text-align: start;
        margin: 0 auto;
     }
     .foods-box{
