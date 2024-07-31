@@ -487,6 +487,10 @@ form select{
     border: none;
     margin-top: 1.7%;
     cursor: pointer;
+    border-right: 20px solid transparent;
+}
+option{
+    background: rgb(34,34,34);
 }
 .bmi-btn{
     width: 39%;
