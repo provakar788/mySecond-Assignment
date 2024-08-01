@@ -291,7 +291,7 @@
     /* footer responsive start */
     .footer-container{
         width: 100%;
-        height: 510px;
+        height: 535px;
         flex-direction: column;
     }
     .footer-content{
@@ -334,6 +334,12 @@
     hr{
         width: 78%;
         margin-top: 4%;
+    }
+    .footer-social{
+        margin-top: 3%;
+    }
+    .footer-reserved{
+        margin-top: 3%;
     }
     /* footer responsive end */
 }
